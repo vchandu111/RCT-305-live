@@ -1,0 +1,15 @@
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px
+}
+
+.container > div{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px;
+}
+
+.container > div> h3{
+    color:brown;
+    text-transform: uppercase;
+}

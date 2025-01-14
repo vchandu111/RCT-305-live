@@ -1,0 +1,18 @@
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-bottom: 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-size: 30px;
+  color: teal;
+  cursor: pointer;
+}
+
+.active {
+  color: brown;
+}
