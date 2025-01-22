@@ -1,0 +1,4 @@
+//loading, success, error
+export const FETCH_TODOS_LOADING = 'FETCH_TODOS_LOADING';
+export const FETCH_TODOS_SUCCESS = 'FETCH_TODOS_SUCCESS';
+export const FETCH_TODOS_FAILURE = 'FETCH_TODOS_FAILURE';

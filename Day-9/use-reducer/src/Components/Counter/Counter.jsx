@@ -4,6 +4,7 @@ const intialValue = {
 };
 const CountReducer = (currentState, action) => {
   //action -> {type:,value:}
+  // return new state
   switch (action.type) {
     case "increment":
       return { counter: currentState.counter + action.value };

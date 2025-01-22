@@ -1,0 +1,50 @@
+.budget-container {
+    margin-bottom: 30px;
+  }
+  
+  .budget-input {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .budget-input input {
+    flex: 1;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .budget-input button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .budget-stats {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .stat-box {
+    flex: 1;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .amount {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+  }
+  
+  .blue { color: #2196F3; }
+  .red { color: #f44336; }
+  .green { color: #4CAF50; }
